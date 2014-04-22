@@ -12,6 +12,7 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'mattn/emmet-vim'
 
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
