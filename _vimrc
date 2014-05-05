@@ -23,17 +23,16 @@ behave mswin
 let mapleader=","
 inoremap jj <ESC>
 
+if has("gui_running")
+    set lines=45 columns=180 " GUI is running or is about to start. Maximize gvim window.
+    set guifont=Consolas:h11
+endif
+
 if &t_Co >= 256 || has("gui_running")
-   colorscheme Tomorrow-Night-Eighties
+    colorscheme Tomorrow-Night-Eighties
 endif
-
 if &t_Co > 2 || has("gui_running")
-   " switch syntax highlighting on, when the terminal has colors
-   syntax on
-endif
-
-if has('gui_running')
-  set guifont=Consolas:h11
+    syntax on "switch syntax highlighting on, when the terminal has colors
 endif
 
 set encoding=utf-8      " The encoding displayed.
