@@ -13,6 +13,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mattn/emmet-vim'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/syntastic'
 
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
